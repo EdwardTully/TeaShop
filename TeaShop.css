@@ -1,0 +1,179 @@
+
+
+* {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+}
+h2 {
+
+    text-align: center;
+    font-size: 160%;
+}
+h3 {
+    font-size: 120%;
+    text-align: center;
+}
+
+h4 {
+    font-size: 100%;
+    text-align: center;
+}
+
+h5{
+    font-size: 68%;
+    text-align: center;
+}
+.main-container {
+    background-color: seashell;
+        
+}
+.page {
+    width:1300px;
+    margin: auto;
+    background: black;
+    opacity: 0.9;
+    
+}
+
+.header {
+    height: 69px;
+    width: 1300px;
+    
+    display: flex;
+    vertical-align: center;
+    justify-content:space-between;
+    background: black;
+    opacity: 0.9;
+    border-bottom: 1px solid seashell;
+
+}
+#logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+    float: left;
+    z-index: 1;
+}
+#nav {
+    list-style: none;
+    text-decoration: underline;
+    float: right;
+}
+#nav li {
+    font-size: 22px;
+    display: inline;
+    margin: 10px;
+
+}
+
+.teashop-hero {
+
+    background-image: url("img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin-left: 47px;
+    display: flex;
+    align-items:center;
+    
+
+
+}
+.mission h2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.mission h4 {
+
+    margin-top: 10px;
+}
+.mission {
+    width: 1200px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.teasers h2, h3 {
+    text-align: center;
+}
+.teasers {
+    width: 1300px;
+    margin-top: 50px;
+}
+
+img {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.pics{
+    
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+figcaption {
+   text-align: center; 
+}
+
+.loc {
+    margin-top: 0px;
+    width: 400px;
+    text-align: center;
+}
+
+#location1 {
+    width: 300px;
+    
+    background: black;
+    
+
+
+}
+#location2 {
+    width: 400px;
+    
+    background: black;
+}
+#location3 {
+    width: 300px;
+    
+    background: black;
+}
+
+.locations {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    background-image: url("img-locations-background.jpg");
+    margin-top: 30px;
+    margin-bottom: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+
+
+.footer {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+
+}
+.copyright {
+    width: 400px;
+
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
